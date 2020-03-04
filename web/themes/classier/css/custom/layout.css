@@ -1,0 +1,9 @@
+html {
+  background-color: antiquewhite;
+}
+
+.layout-content {
+  background-color: rgb(255, 248, 239);
+  margin: 2%;
+  padding: 1% 3% 2% 3%;
+}

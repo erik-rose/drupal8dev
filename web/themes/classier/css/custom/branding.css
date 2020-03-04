@@ -1,0 +1,128 @@
+header > * {
+  display: flex;
+  flex-wrap: nowrap;  
+}
+
+.block-system-branding-block {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#block-sitename {
+  background-color: rgb(255,248,239);
+  border: none;
+  color: black;
+  padding: 1em 1em 1em 1em;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 3% 0 3% 3%;;
+  white-space: nowrap;
+}
+
+#block-sitename > div > div > div > div > a {
+  text-decoration: none;
+}
+
+#block-sitename > div > div > div > div > a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.site-logo > img {
+  padding: 50% 0% 50% 30%;
+}
+
+#block-logout {
+  background-color: rgb(255,248,239);
+  border: none;
+  color: black;
+  padding: 1em 1em 1em 1em;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 3% 0 3% 3%;
+  white-space: nowrap;
+}
+
+#block-logout > div > div > div > div > a {
+  color: black;
+  text-decoration: none;
+}
+
+#block-logout > div > div > div > div > a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#block-usermenu {
+  background-color: rgb(255,248,239);
+  border: none;
+  color: black;
+  padding: 1em 1em 1em 1em;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 3% 0 3% 3%;
+  white-space: nowrap;
+}
+
+#block-usermenu > div > div > div > div > a {
+  color: black;
+  text-decoration: none;
+}
+
+#block-usermenu > div > div > div > div > a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#block-mainnavigation2 {
+  background-color: rgb(255,248,239);
+  border: none;
+  color: black;
+  padding: 1em 1em 1em 1em;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 3% 0 3% 3%;
+  white-space: nowrap;
+}
+
+#block-mainnavigation2 > div > a {
+  color: black;
+  text-decoration: none;
+}
+
+#block-mainnavigation2 > div > a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/*#block-userlogout {
+  transform: translate(60%, 35%);
+}
+
+#block-usermenu {
+  transform: translate(50%, 35%);
+}
+
+#block-mainnavigation2 {
+  transform: translate(50%, 35%);
+}
+
+.site-name {
+  transform: translate(5%, 40%);
+}
+
+.region-primary-menu {
+  transform: translate(5%, 12.5%);
+}
+
+.region-secondary-menu {
+  transform: translate(5%, 11.5%);
+}*/

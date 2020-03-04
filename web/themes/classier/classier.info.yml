@@ -1,0 +1,35 @@
+name: Classier
+type: theme
+base theme: stable
+description: 'A custom version of the classy theme'
+package: Core
+version: VERSION
+core: 8.x
+hidden: false
+
+libraries:
+  - classier/base
+  - classier/messages
+  - classier/global-styling
+  - core/normalize
+
+libraries-extend:
+  user/drupal.user:
+    - classier/user
+  core/drupal.dropbutton:
+    - classier/dropbutton
+  core/drupal.dialog:
+    - classier/dialog
+  file/drupal.file:
+    - classier/file
+  core/drupal.progress:
+    - classier/progress
+  media/media_embed_ckeditor_theme:
+    - classier/media_embed_ckeditor_theme
+  media_library/view:
+    - classier/media_library
+  media_library/widget:
+    - classier/media_library
+
+ckeditor_stylesheets:
+  - css/components/media-embed-error.css
